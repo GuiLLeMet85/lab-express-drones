@@ -1,8 +1,158 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+header,
+section,
+footer,
+article,
+details {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+/* Basic styles, change according to your style */
+
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Flex:opsz@8..144&display=swap");
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 a {
-  color: #00b7ff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 5vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+
+/* -------------menu-------------*/
+
+nav {
+    padding: 3vh 1vw;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white
+}
+
+
+/* -------------home-------------*/
+
+.text-intro {
+    background-color: black;
+    padding: 4vh 2vw;
+    color: white
+}
+
+p.intro {
+    text-align: center;
+}
+
+img.drone-picture {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
