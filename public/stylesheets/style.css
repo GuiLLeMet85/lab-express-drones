@@ -151,8 +151,75 @@ p.intro {
     text-align: center;
 }
 
+
+/* -------------drones-------------*/
+
 img.drone-picture {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+
+.drone-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drone-info {
+    padding: 2vh 4vw;
+    margin: 2vh auto;
+}
+
+.buttons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+
+.but-list {
+    padding: 0.5vh 0;
+    border: 2px solid;
+    font-size: 1rem;
+    width: 90px;
+    text-align: center;
+}
+
+.drone-info p {
+    line-height: 1.7;
+}
+
+
+/* -------------forms-------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    align-content: space-around;
+    margin: 2vh auto;
+}
+
+input {
+    margin: 0.5vh auto;
+    padding: 1vh 2vw;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 1vh 0;
+}
+
+.form-update .but-list {
+    margin-top: 2vh;
+}
+
+.create-form .but-list {
+    width: 150px;
+    margin-top: 2vh;
 }
