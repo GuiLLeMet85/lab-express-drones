@@ -63,7 +63,7 @@ router.post('/drones/:id/delete', async(req, res, next) => {
     const { id } = req.params;
     try {
         await Drone.findByIdAndDelete(id);
-        res.render('/')
+        res.render('index')
     } catch (error) {
         next(error)
     }
